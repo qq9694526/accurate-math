@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+</head>
+
+<body>
+    <h3>加法</h3>
+    <p>示例：0.1 + 0.2 =
+        <span id="originAdd"></span>
+    </p>
+    <code>
+        new Number(0.1).add(0.2) <br/>
+        "0.1".add(0.2)
+    </code>
+    <p>修正后结果：
+        <span id="addResult"></span>
+    </p>
+    <hr>
+    <h3>减法</h3>
+    <p>示例：1 - 0.8 =
+        <span id="originSub"></span>
+    </p>
+    <code>
+        new Number(1).sub(0.8)
+    </code>
+    <p>修正后结果：
+        <span id="subResult"></span>
+    </p>
+    <hr>
+    <h3>乘法</h3>
+    <p>示例：6 + 0.7 =
+        <span id="originMul"></span>
+    </p>
+    <code>
+        new Number(6).mul(0.7)
+    </code>
+    <p>修正后结果：
+        <span id="mulResult"></span>
+    </p>
+    <hr>
+    <h3>除法</h3>
+    <p>示例：1.2 / 0.2 =
+        <span id="originDiv"></span>
+    </p>
+    <code>
+        new Number(1.2).div(0.2)
+    </code>
+    <p>修正后结果：
+        <span id="divResult"></span>
+    </p>
+    <hr>
+
+    <script src="../release/accurate-math.js"></script>
+    <script>
+        window.onload = function () {
+            document.getElementById("originAdd").innerText = 0.1 + 0.2;
+            document.getElementById("originSub").innerText = 1 - 0.8;
+            document.getElementById("originMul").innerText = 6 * 0.7;
+            document.getElementById("originDiv").innerText = 1.2 / 0.2;
+            document.getElementById("addResult").innerText = new Number(0.1).add(0.2);
+            document.getElementById("subResult").innerText = new Number(1).sub(0.8);
+            document.getElementById("mulResult").innerText = new Number(6).mul(0.7);
+            document.getElementById("divResult").innerText = new Number(1.2).div(0.2);
+        }
+    </script>
+</body>
+
+</html>
