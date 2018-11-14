@@ -60,27 +60,27 @@ function accMul(arg1, arg2) {
 }
 
 // 给Number类型增加一个mul方法，调用起来更加方便。
-Number.prototype.add = function (arg) {
+window.Number.prototype.add = function (arg) {
     return accAdd(this, arg);
 }
-String.prototype.add = function (arg) {
+window.String.prototype.add = function (arg) {
     return accAdd(this, arg);
 }
-Number.prototype.sub = function (arg) {
+window.Number.prototype.sub = function (arg) {
     return accSub(this, arg);
 }
-String.prototype.sub = function (arg) {
+window.String.prototype.sub = function (arg) {
     return accSub(this, arg);
 }
-Number.prototype.mul = function (arg) {
+window.Number.prototype.mul = function (arg) {
     return accMul(this, arg);
 }
-String.prototype.mul = function (arg) {
+window.String.prototype.mul = function (arg) {
     return accMul(this, arg);
 }
-Number.prototype.div = function (arg) {
+window.Number.prototype.div = function (arg) {
     return accDiv(this, arg);
 }
-String.prototype.div = function (arg) {
+window.String.prototype.div = function (arg) {
     return accDiv(this, arg);
 }

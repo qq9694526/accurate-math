@@ -1,6 +1,6 @@
 {
   "name": "accurate-math",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "一个极简js库，用于解决js浮点数四则运算结果不准确的问题。",
   "main": "index.js",
   "scripts": {

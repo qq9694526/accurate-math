@@ -16,7 +16,8 @@ $ npm i accurate-math -D
 
 require("accurate-math")
 ```
-- Browser：[下载js](https://github.com/qq9694526/accurate-math/releases)到本地项目并引入。在本项目/[release目录](https://github.com/qq9694526/accurate-math/tree/master/release)下也能获取完整js。
+- Browser：[下载js](https://github.com/qq9694526/accurate-math/releases)到本地项目并引入。在本项目/[release目录](https://github.com/qq9694526/accurate-math/tree/master/release)下也能获取完整js。   
+[CDN：](https://unpkg.com/accurate-math@1.0.2/release/accurate-math.js) https://unpkg.com/accurate-math@1.0.2/release/accurate-math.js
 ```javascript
 <script src="./accurate-math.js"></script>
 ```
