@@ -12,8 +12,9 @@ console.log(1.2 / 0.2); // 5.999999999999999
 ## 安装
 - Node：npm安装并引入
 ```javascript
-$ npm install bignumber.js
-require('bignumber.js')
+$ npm i accurate-math -D
+
+require("accurate-math")
 ```
 - Browser：[下载js](https://github.com/qq9694526/accurate-math/releases)到本地项目并引入。在本项目/[release目录](https://github.com/qq9694526/accurate-math/tree/master/release)下也能获取完整js。
 ```javascript
