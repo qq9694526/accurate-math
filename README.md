@@ -9,6 +9,7 @@ console.log(0.1 + 0.2); // 0.30000000000000004
 console.log(0.1 + 0.7); // 0.7999999999999999 
 console.log(1.2 / 0.2); // 5.999999999999999
 ```
+问题原因的话可以参看这篇博文：https://juejin.im/post/5c023084f265da613e21fb54
 ## 安装
 - Node：npm安装并引入
 ```javascript
